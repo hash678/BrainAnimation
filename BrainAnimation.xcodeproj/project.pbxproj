@@ -13,6 +13,7 @@
 		19F70913247CDEBF00C8E23E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F70911247CDEBF00C8E23E /* Main.storyboard */; };
 		19F70915247CDEC400C8E23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F70914247CDEC400C8E23E /* Assets.xcassets */; };
 		19F70918247CDEC400C8E23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F70916247CDEC400C8E23E /* LaunchScreen.storyboard */; };
+		19F70920247CEA6400C8E23E /* FillAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F7091F247CEA6400C8E23E /* FillAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		19F70914247CDEC400C8E23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F70917247CDEC400C8E23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19F70919247CDEC400C8E23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F7091F247CEA6400C8E23E /* FillAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				19F70914247CDEC400C8E23E /* Assets.xcassets */,
 				19F70916247CDEC400C8E23E /* LaunchScreen.storyboard */,
 				19F70919247CDEC400C8E23E /* Info.plist */,
+				19F7091F247CEA6400C8E23E /* FillAnimationView.swift */,
 			);
 			path = BrainAnimation;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F70920247CEA6400C8E23E /* FillAnimationView.swift in Sources */,
 				19F70910247CDEBF00C8E23E /* ViewController.swift in Sources */,
 				19F7090C247CDEBF00C8E23E /* AppDelegate.swift in Sources */,
 				19F7090E247CDEBF00C8E23E /* SceneDelegate.swift in Sources */,
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U8ABLMRK4;
 				INFOPLIST_FILE = BrainAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U8ABLMRK4;
 				INFOPLIST_FILE = BrainAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
